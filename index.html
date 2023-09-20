@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/kasper.css">
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module">
     </script>
-    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
 
@@ -31,10 +31,10 @@
             <nav>
                 <i class="fa-solid fa-bars" id="toggle"></i>
                 <ul>
-                    <li><a class="active" href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a  class="active" href="">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="">Pricing</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
@@ -69,7 +69,7 @@
     </div>
     <!-- end landing -->
     <!-- start services section -->
-    <div class="services">
+    <div class="services" id="services">
         <div class="container">
             <div class="main-heading">
                 <h2>services</h2>
@@ -119,7 +119,7 @@
     </div>
     <!-- end services section -->
     <!-- start design -->
-    <div class="design">
+    <div class="design" id="design">
         <div class="image">
             <dotlottie-player src="https://lottie.host/8410d047-fc26-4e51-a169-22ca9ebd5820/vwKjvE5mS0.json"
                 background="transparent" speed="1" style="width: 600px; height: 600px" direction="1" mode="normal" loop
@@ -138,7 +138,7 @@
     </div>
     <!-- end design -->
     <!-- start portfolio -->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="container">
             <div class="main-heading">
                 <h2>Portfolio</h2>
@@ -216,50 +216,67 @@
         <a href="" class="more">More</a>
     </div>
     <!-- end portfolio -->
-<!-- start video -->
-<div class="video">
-    <video autoplay muted loop>
-        <source src="images/vid.mp4" type="video/mp4">
-    </video>
-    <div class="text">
-        <h2>Super Awesome Video Here</h2>
-        <p>It Is All You Need</p>
-        <button>See More</button>
+    <!-- start video -->
+    <div class="video" id="video">
+        <video autoplay muted loop>
+            <source src="images/vid.mp4" type="video/mp4">
+        </video>
+        <div class="text">
+            <h2>Super Awesome Video Here</h2>
+            <p>It Is All You Need</p>
+            <button>See More</button>
+        </div>
     </div>
-</div>
-<!-- end video -->
-<!-- start about -->
-<div class="about">
+    <!-- end video -->
+    <!-- start about -->
+<div class="about" id="about">
     <div class="container">
         <div class="main-heading">
             <h2>About Us</h2>
-            <p>Curabitur arcu erat, accumsan idimperdiet et, porttitor at sem. Maurisblandit aliquet elit, eget
-            tincidunt nibh
-            pulvinar a. Curabitur aliquet quamAccumsan id imperdiet
-            </p>
-        </div>
-        <div class="lotti">
-            <div class="animation">
-                <dotlottie-player src="https://lottie.host/e012b28b-4ea8-4a99-98b5-f856a34c37fb/LTY23c2eE5.json"
-                    background="transparent" speed="1" style="width: 500px; height: 500px" direction="1" mode="normal" loop autoplay>
-                </dotlottie-player>
-            </div>
-            <p>
-                ABOUT US <br> accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                tincidunt nibh
                 pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet
             </p>
+            <lottie-player id="lo" src="https://lottie.host/ea98e38e-72d7-4cd8-a7f7-6e7ea6114c49/Q4IvA6xmIe.json" background="transparent"
+            speed="1" style="width: 300px; height: 300px;" loop autoplay>
+            </lottie-player>
         </div>
-        
     </div>
 </div>
 <!-- end about -->
 <!-- start stats -->
 <div class="stats">
     <div class="container">
-
+        <div class="box">
+            <i class="fa-brands fa-slack"></i>
+            <div class="num">1.236</div>
+            <p>Coffee Drinks</p>
+        </div>
+        <div class="box">
+            <i class="fa-brands fa-slack"></i>
+            <div class="num">236</div>
+            <p>Completed Projects</p>
+        </div>
+        <div class="box">
+            <i class="fa-brands fa-slack"></i>
+            <div class="num">1.766</div>
+            <p>Mail Sent</p>
+        </div>
+        <div class="box">
+            <i class="fa-brands fa-slack"></i>
+            <div class="num">16</div>
+            <p>Awards Received</p>
+        </div>
     </div>
 </div>
 <!-- end stats -->
+<!-- start up arrow -->
+<a href="#">
+    <div class="up">
+        <i class="fa-solid fa-chevron-up"></i>
+    </div>
+</a>
+<!-- end up arrow -->
 </body>
 
 </html>
