@@ -648,10 +648,8 @@ header nav .form i {
 display: none;
 }
 .video .text p {
-display: none;
-
+visibility: hidden;
 }
-
 }
 .video .text h2 {
     margin: 0 0 30px;
