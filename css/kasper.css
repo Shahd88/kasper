@@ -1215,7 +1215,16 @@ header nav .form i {
 
 /* end contact */
 
-
+ /* statr footer */
+footer{
+    background-color: #102A3F;
+        height: 80px;
+        color: white;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+}
+ /* end footer */ 
 /* start up arrow */
 .up {
     position: fixed;
