@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/kasper.css">
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module">
     </script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
 
 </head>
 
@@ -31,11 +31,11 @@
             <nav>
                 <i class="fa-solid fa-bars" id="toggle"></i>
                 <ul>
-                    <li><a  class="active" href="">Home</a></li>
+                    <li><a class="active" href="">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="">Pricing</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
                 <div class="form">
@@ -229,54 +229,249 @@
     </div>
     <!-- end video -->
     <!-- start about -->
-<div class="about" id="about">
-    <div class="container">
-        <div class="main-heading">
-            <h2>About Us</h2>
-            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
-                tincidunt nibh
-                pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet
-            </p>
-            <lottie-player id="lo" src="https://lottie.host/ea98e38e-72d7-4cd8-a7f7-6e7ea6114c49/Q4IvA6xmIe.json" background="transparent"
-            speed="1" style="width: 300px; height: 300px;" loop autoplay>
-            </lottie-player>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="main-heading">
+                <h2>About Us</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt nibh
+                    pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet
+                </p>
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+                    type="module"></script>
+                <dotlottie-player id="lo" src="https://lottie.host/e012b28b-4ea8-4a99-98b5-f856a34c37fb/LTY23c2eE5.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px" direction="1" mode="normal"
+                    loop autoplay></dotlottie-player>
+            </div>
         </div>
     </div>
-</div>
-<!-- end about -->
-<!-- start stats -->
-<div class="stats">
-    <div class="container">
-        <div class="box">
-            <i class="fa-brands fa-slack"></i>
-            <div class="num">1.236</div>
-            <p>Coffee Drinks</p>
-        </div>
-        <div class="box">
-            <i class="fa-brands fa-slack"></i>
-            <div class="num">236</div>
-            <p>Completed Projects</p>
-        </div>
-        <div class="box">
-            <i class="fa-brands fa-slack"></i>
-            <div class="num">1.766</div>
-            <p>Mail Sent</p>
-        </div>
-        <div class="box">
-            <i class="fa-brands fa-slack"></i>
-            <div class="num">16</div>
-            <p>Awards Received</p>
+    <!-- end about -->
+    <!-- start stats -->
+    <div class="stats">
+        <div class="container">
+            <div class="box">
+                <i class="fa-brands fa-slack"></i>
+                <div class="num">1.236</div>
+                <p>Coffee Drinks</p>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-slack"></i>
+                <div class="num">236</div>
+                <p>Completed Projects</p>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-slack"></i>
+                <div class="num">1.766</div>
+                <p>Mail Sent</p>
+            </div>
+            <div class="box">
+                <i class="fa-brands fa-slack"></i>
+                <div class="num">16</div>
+                <p>Awards Received</p>
+            </div>
         </div>
     </div>
-</div>
-<!-- end stats -->
-<!-- start up arrow -->
-<a href="#">
-    <div class="up">
-        <i class="fa-solid fa-chevron-up"></i>
+    <!-- end stats -->
+    <!-- start our skills -->
+    <div class="our-skills">
+        <div class="container">
+            <div class="testimonials">
+                <h3>Testimonials</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt nibh
+                </p>
+                <div class="content">
+                    <img src="../images/skills1.jpg" alt="">
+                    <div class="text">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                        eget
+                        tincidunt nibh
+                        <p>John Doe, CEO</p>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="../images/5.jpg" alt="">
+                    <div class="text">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
+                        eget
+                        tincidunt nibh
+                        pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet
+                        <p>Doe, CEO</p>
+                    </div>
+                </div>
+                <ul class="bullets">
+                    <li></li>
+                    <li class="active"></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>skills</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt nibh
+                </p>
+                <div class="progress">
+                    <h4>Adobe</h4>
+                    <div class="prog">
+                        <span style="width: 90%;" data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4>HTML &amp; Css</h4>
+                    <div class="prog">
+                        <span style="width: 70%;" data-progress="70%"></span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4>JavaScript</h4>
+                    <div class="prog">
+                        <span style="width: 56%;" data-progress="56%"></span>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4>Php</h4>
+                    <div class="prog">
+                        <span style="width: 44%;" data-progress="44%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</a>
-<!-- end up arrow -->
+    <!-- end our skills -->
+    <!-- start quote -->
+    <div class="quote">
+        <div class="container">
+            <q>To be yourself in a world that is constantly trying to make you something else is the greatest
+                accomplishment.</q>
+            <span>Ralph Waldo Emerson</span>
+        </div>
+    </div>
+    <!-- end quote -->
+    <!-- start pricing -->
+    <div class="pricing" id="pricing">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Pricing</h2>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt nibh
+                    pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet
+                </p>
+            </div>
+            <div class="plans">
+                <div class="plan">
+                    <div class="head">
+                        <h3>Basic</h3>
+                        <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature </li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Premium</h3>
+                        <span>29</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature </li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Pro</h3>
+                        <span>43</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature </li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+                <div class="plan">
+                    <div class="head">
+                        <h3>Platinum</h3>
+                        <span>45</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature </li>
+                        <li>Extra Feature No 2</li>
+                        <li>Feature</li>
+                    </ul>
+                    <div class="foot">
+                        <a href="#">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <p class="contact">Contact Us If You Have Special Request</p>
+            <a href="#" class="contact-link" style="text-decoration: none;">Contact Us</a>
+        </div>
+    </div>
+    <!-- end pricing -->
+    <!-- start subscribe -->
+    <div class="subscribe">
+        <div class="container">
+            <form action="">
+                <i class="fa-solid fa-right-to-bracket fa-lg"></i>
+                <input type="email" name="mail" placeholder="Your Email">
+                <input type="submit" value="subscribe">
+            </form>
+            <p>To be yourself in a world that is constantly trying to make you something else is the greatest
+                accomplishment.</p>
+        </div>
+    </div>
+    <!-- end subscribe -->
+    <!-- start contact -->
+    <div class="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>Contact Us</h2>
+                <p>To be yourself in a world that is constantly trying to make you something else is the greatest
+                    accomplishment.</p>
+            </div>
+            <div class="content">
+                <form action="">
+                    <input class="main-input" placeholder="Your Name" type="text" name="name" id="">
+                    <input class="main-input" placeholder="Your Email" type="email" name="mail" id="">
+                    <textarea name="message" placeholder="Your Message" id="" class="main-input"></textarea>
+                    <input type="submit" value="send message">
+                </form>
+                <div class="info">
+                    <h4>Get In Touch</h4>
+                    <span class="phone">+00 123 567 879</span>
+                    <span class="phone">+00 123 567 879</span>
+                    <h4>Where We Are</h4>
+                    <address>Awesome Address 13 <br> New York . NYC <br> 123 543 667 <br> USA</address>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- start up arrow -->
+    <a href="#">
+        <div class="up">
+            <i class="fa-solid fa-chevron-up"></i>
+        </div>
+    </a>
+    <!-- end up arrow -->
 </body>
 
 </html>
