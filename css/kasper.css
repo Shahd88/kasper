@@ -639,14 +639,13 @@ header nav .form i {
     text-align: center;
     background-color: var(--transparent-color);
 }
-
-.video .text h2 {
-    margin: 0 0 30px;
+@media (max-width: 767px) {
+.video .text{
+    height: 70%;
 }
-
-.video .text p {
-    margin: 0 0 30px;
-
+.video .text button{
+display: none;
+}
 }
 
 .video .text button {
@@ -1260,10 +1259,8 @@ footer{
     -ms-transition: .3s;
     -o-transition: .3s;
 }
-
 .up i {
     color: white;
     font-size: 20px;
 }
-
 /* end up arrow */
