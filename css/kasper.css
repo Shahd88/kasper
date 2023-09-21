@@ -646,6 +646,15 @@ header nav .form i {
 .video .text button{
 display: none;
 }
+
+}
+.video .text h2 {
+    margin: 0 0 30px;
+}
+
+.video .text p {
+    margin: 0 0 30px;
+
 }
 
 .video .text button {
