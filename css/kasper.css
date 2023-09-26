@@ -1227,9 +1227,10 @@ visibility: hidden;
 /* end contact */
 
  /* statr footer */
-footer{
+footer .container{
     background-color: #102A3F;
         height: 80px;
+        width: 100%;
         color: white;
         justify-content: center;
         display: flex;
